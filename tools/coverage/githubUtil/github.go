@@ -51,6 +51,7 @@ var getRepoRoot = func() (string, error) {
 
 // GetRepoPath gets repository path relative to GOPATH/src
 func GetRepoPath() (string, error) {
+	//return "knative.dev/serving", nil
 	repoRoot, err := getRepoRoot()
 	if err != nil {
 		return "", fmt.Errorf("failed git rev-parse --show-toplevel: '%v'", err)

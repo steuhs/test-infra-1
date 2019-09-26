@@ -34,8 +34,8 @@ const (
 	keyCovProfileFileName      = "key-cov-prof.txt"
 	defaultStdoutRedirect      = "stdout.txt"
 	defaultCoverageTargetDir   = "."
-	defaultGcsBucket           = "knative-prow"
-	defaultPostSubmitJobName   = ""
+	defaultGcsBucket           = "gob-prow"
+	defaultPostSubmitJobName   = "ci-cr-gke-go-coverage"
 	defaultCovThreshold        = 50
 	defaultArtifactsDir        = "./artifacts/"
 	defaultCoverageProfileName = "coverage_profile.txt"
